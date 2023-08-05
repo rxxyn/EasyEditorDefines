@@ -9,7 +9,7 @@ namespace EasyEditorDefines
         public static bool IsUnityEditor = true;
 #else
         /// <summary>
-        /// Are you on the Unity Editor?
+        /// Are you on the Unity Editor? 
         /// </summary>
         public static bool IsUnityEditor = false;
 #endif
@@ -28,24 +28,24 @@ namespace EasyEditorDefines
 
 #if UNITY_EDITOR_OSX
         /// <summary>
-        /// Is your Unity Editor platform Windows?
+        /// Is your Unity Editor platform OSX (Mac)?
         /// </summary>
         public static bool IsUnityEditor_Mac = true;
 #else
         /// <summary>
-        /// Is your Unity Editor platform Windows?
+        /// Is your Unity Editor platform OSX (Mac)?
         /// </summary>
         public static bool IsUnityEditor_Mac = false;
 #endif
 
 #if UNITY_EDITOR_LINUX
         /// <summary>
-        /// Is your Unity Editor platform Windows?
+        /// Is your Unity Editor platform Linux?
         /// </summary>
         public static bool IsUnityEditor_Linux = true;
 #else
         /// <summary>
-        /// Is your Unity Editor platform Windows?
+        /// Is your Unity Editor platform Linux?
         /// </summary>
         public static bool IsUnityEditor_Linux = false;
 #endif
